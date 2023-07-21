@@ -35,13 +35,15 @@ class Onboard2 extends StatelessWidget {
           ),
         ),
 
-        // image logo
+        // image shadow
         Positioned(
+          width: Get.width * 0.55,
           height: Get.height,
-          width: Get.width,
-          top: Get.height * 0.05,
+          left: Get.width * 0.1,
+          bottom: Get.height * 0.045,
           child: Image.asset(
-            'assets/images/onboarding_images/bg_logo_nike.png',
+            'assets/images/onboarding_images/shadow_2.png',
+            opacity: const AlwaysStoppedAnimation(25),
           ),
         ),
 
@@ -52,6 +54,16 @@ class Onboard2 extends StatelessWidget {
           bottom: Get.height * 0.2,
           child: Image.asset(
             'assets/images/onboarding_images/shoe_2.png',
+          ),
+        ),
+
+        // image logo
+        Positioned(
+          height: Get.height,
+          width: Get.width,
+          top: Get.height * 0.05,
+          child: Image.asset(
+            'assets/images/onboarding_images/bg_logo_nike.png',
           ),
         ),
 

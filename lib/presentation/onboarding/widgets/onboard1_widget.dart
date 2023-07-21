@@ -9,6 +9,18 @@ class Onboard1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
+        // image shadow
+        Positioned(
+          width: Get.width * 0.55,
+          height: Get.height,
+          left: Get.width * 0.1,
+          top: Get.height * 0.074,
+          child: Image.asset(
+            'assets/images/onboarding_images/shadow_1.png',
+            opacity: const AlwaysStoppedAnimation(25),
+          ),
+        ),
+
         // image shoe
         Positioned(
           width: Get.width,

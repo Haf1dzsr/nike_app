@@ -43,6 +43,18 @@ class Onboard3 extends StatelessWidget {
           ),
         ),
 
+        // image shadow
+        Positioned(
+          width: Get.width * 0.55,
+          height: Get.height,
+          left: Get.width * 0.175,
+          bottom: Get.height * 0.0375,
+          child: Image.asset(
+            'assets/images/onboarding_images/shadow_2.png',
+            opacity: const AlwaysStoppedAnimation(100),
+          ),
+        ),
+
         // image shoe
         Positioned(
           width: Get.width,
