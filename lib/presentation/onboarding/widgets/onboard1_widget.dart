@@ -60,8 +60,8 @@ class Onboard1 extends StatelessWidget {
         Positioned(
           width: 145,
           height: 127,
-          bottom: Get.height * 0.19,
-          right: Get.width * 0.115,
+          bottom: Get.height * 0.22,
+          right: Get.width * 0.001,
           child: Image.asset(
             'assets/images/onboarding_images/phew_right.png',
             width: 90,
