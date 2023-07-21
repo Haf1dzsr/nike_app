@@ -1,2 +1,2 @@
-export 'package:nike_app/presentation/home/home.screen.dart';
-export 'package:nike_app/presentation/splash/splash.screen.dart';
+export 'package:nike_app/presentation/home/home_screen.dart';
+export 'package:nike_app/presentation/splash/splash_screen.dart';
