@@ -40,7 +40,7 @@ class Nav {
     ),
     GetPage(
       name: Routes.onboarding,
-      page: () => const OnboardingScreen(),
+      page: () => OnboardingScreen(),
       binding: OnboardingControllerBinding(),
       transition: Transition.cupertino,
     ),
