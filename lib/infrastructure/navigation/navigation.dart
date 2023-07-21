@@ -30,11 +30,19 @@ class Nav {
       name: Routes.home,
       page: () => HomeScreen(),
       binding: HomeControllerBinding(),
+      transition: Transition.cupertino,
     ),
     GetPage(
       name: Routes.splash,
       page: () => SplashScreen(),
       binding: SplashControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.onboarding,
+      page: () => OnboardingScreen(),
+      binding: OnboardingControllerBinding(),
+      transition: Transition.cupertino,
     ),
   ];
 }
