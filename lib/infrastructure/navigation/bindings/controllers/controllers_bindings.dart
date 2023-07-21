@@ -1,2 +1,2 @@
-export 'package:nike_app/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
-export 'package:nike_app/infrastructure/navigation/bindings/controllers/splash.controller.binding.dart'; 
+export 'package:nike_app/infrastructure/navigation/bindings/controllers/home_controller.binding.dart'; 
+export 'package:nike_app/infrastructure/navigation/bindings/controllers/splash.controller_binding.dart'; 
