@@ -29,7 +29,7 @@ class Onboard1 extends StatelessWidget {
           ),
         ),
 
-        // image smile l
+        // image smile m
         Positioned(
           width: 45,
           height: 45,

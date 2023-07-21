@@ -29,6 +29,7 @@ class AppTextStyle {
         decoration: TextDecoration.none,
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
+        color: AppColorStyle.whiteTitleColor,
         height: 44.2 / 34,
         letterSpacing: 0,
       );
@@ -38,6 +39,7 @@ class AppTextStyle {
         decoration: TextDecoration.none,
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w400,
+        color: AppColorStyle.whiteTitleColor,
         height: 24 / 16,
         letterSpacing: 0,
       );
