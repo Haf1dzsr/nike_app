@@ -140,7 +140,7 @@ class LoginScreen extends GetView<AuthLoginController> {
                             AppColorStyle.greyButtonColor,
                           ),
                         ),
-                        onPressed: () => Get.offAllNamed('destinationWidget'),
+                        onPressed: () => Get.toNamed(Routes.profile),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,

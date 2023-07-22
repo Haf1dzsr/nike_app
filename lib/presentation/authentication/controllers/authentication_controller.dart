@@ -6,10 +6,10 @@ class AuthenticationController extends GetxController {
   /// name validator
   String? validateName(String? value) {
     if (value == null || value.isEmpty) {
-      return 'Nama tidak boleh kosong';
+      return "The name can't be empty";
     }
     if (value.length < 2) {
-      return 'Minimal 2 karakter';
+      return 'Minimum 2 Characters';
     }
     return null;
   }
@@ -47,6 +47,28 @@ class AuthenticationController extends GetxController {
     }
     if (value.length < 2) {
       return 'Minimal 2 karakter';
+    }
+    return null;
+  }
+
+  /// name validator
+  String? validateLoc(String? value) {
+    if (value == null || value.isEmpty) {
+      return "The name can't be empty";
+    }
+    if (value.length < 2) {
+      return 'Minimum 2 Characters';
+    }
+    return null;
+  }
+
+  /// name validator
+  String? validatePhone(String? value) {
+    if (value == null || value.isEmpty) {
+      return "The Phone Number can't be empty";
+    }
+    if (value.length < 2) {
+      return 'Minimum 2 numbers';
     }
     return null;
   }

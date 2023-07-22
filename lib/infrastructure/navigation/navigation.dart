@@ -74,5 +74,17 @@ class Nav {
       binding: OtpVerificationControllerBinding(),
       transition: Transition.cupertino,
     ),
+    GetPage(
+      name: Routes.profile,
+      page: () => ProfileScreen(),
+      binding: ProfileControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.editProfile,
+      page: () => EditProfileScreen(),
+      binding: EditProfileControllerBinding(),
+      transition: Transition.cupertino,
+    ),
   ];
 }
