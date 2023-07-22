@@ -151,6 +151,7 @@ class AppTextStyle {
         decoration: TextDecoration.none,
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
+        color: AppColorStyle.primaryColor,
         height: 16 / 15,
         letterSpacing: 0,
       );

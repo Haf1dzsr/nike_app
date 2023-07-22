@@ -5,4 +5,6 @@ export 'package:nike_app/presentation/authentication/otp_verification_screen.dar
 export 'package:nike_app/presentation/authentication/register_screen.dart';
 export 'package:nike_app/presentation/home/home_screen.dart';
 export 'package:nike_app/presentation/onboarding/onboarding_screen.dart';
+export 'package:nike_app/presentation/profile/edit_profile_screen.dart';
+export 'package:nike_app/presentation/profile/profile_screen.dart';
 export 'package:nike_app/presentation/splash/splash_screen.dart';
