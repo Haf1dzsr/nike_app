@@ -116,7 +116,7 @@ class ProfileScreen extends GetView<ProfileController> {
                     Align(
                       alignment: Alignment.bottomRight,
                       child: GestureDetector(
-                        onTap: () => Get.toNamed(Routes.home),
+                        onTap: () => Get.toNamed(Routes.forgotPassword),
                         child: Text(
                           'Recovery Password',
                           style: const AppTextStyle().bodyLabelSubtitle,
