@@ -44,5 +44,35 @@ class Nav {
       binding: OnboardingControllerBinding(),
       transition: Transition.cupertino,
     ),
+    GetPage(
+      name: Routes.auth,
+      page: () => const AuthenticationScreen(),
+      binding: AuthenticationControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.login,
+      page: () => LoginScreen(),
+      binding: LoginScreenControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.register,
+      page: () => RegisterScreen(),
+      binding: RegisterControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.forgotPassword,
+      page: () => ForgotPasswordScreen(),
+      binding: ForgotPasswordControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.otpVerification,
+      page: () => OtpVerificationScreen(),
+      binding: OtpVerificationControllerBinding(),
+      transition: Transition.cupertino,
+    ),
   ];
 }
