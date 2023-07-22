@@ -67,6 +67,7 @@ class AppTextStyle {
         decoration: TextDecoration.none,
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w400,
+        color: AppColorStyle.greySubtitleColor,
         height: 24 / 16,
         letterSpacing: 0,
       );
@@ -85,6 +86,7 @@ class AppTextStyle {
         decoration: TextDecoration.none,
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w400,
+        color: AppColorStyle.greySubtitleColor,
         height: 16 / 12,
         letterSpacing: 0,
       );
@@ -103,6 +105,7 @@ class AppTextStyle {
         decoration: TextDecoration.none,
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w500,
+        color: AppColorStyle.greyLabelColor,
         height: 16 / 14,
         letterSpacing: 0,
       );
@@ -131,6 +134,51 @@ class AppTextStyle {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w600,
         height: 24 / 18,
+        letterSpacing: 0,
+      );
+
+  TextStyle get appBarTitle => GoogleFonts.raleway(
+        fontSize: 20,
+        decoration: TextDecoration.none,
+        fontStyle: FontStyle.normal,
+        fontWeight: FontWeight.w600,
+        height: 20 / 20,
+        letterSpacing: 0,
+      );
+
+  TextStyle get appBarTrailingText => GoogleFonts.raleway(
+        fontSize: 15,
+        decoration: TextDecoration.none,
+        fontStyle: FontStyle.normal,
+        fontWeight: FontWeight.w700,
+        height: 16 / 15,
+        letterSpacing: 0,
+      );
+
+  TextStyle get bodyTextButton => GoogleFonts.raleway(
+        fontSize: 12,
+        decoration: TextDecoration.none,
+        fontStyle: FontStyle.normal,
+        fontWeight: FontWeight.w600,
+        height: 16 / 12,
+        letterSpacing: 0,
+      );
+
+  TextStyle get phoneNumberText => GoogleFonts.poppins(
+        fontSize: 16,
+        decoration: TextDecoration.none,
+        fontStyle: FontStyle.normal,
+        fontWeight: FontWeight.w400,
+        height: 16 / 16,
+        letterSpacing: 0.3,
+      );
+
+  TextStyle get bodyLabelInfo => GoogleFonts.raleway(
+        fontSize: 20,
+        decoration: TextDecoration.none,
+        fontStyle: FontStyle.normal,
+        fontWeight: FontWeight.w600,
+        height: 20 / 20,
         letterSpacing: 0,
       );
 }

@@ -93,7 +93,7 @@ class OnboardingScreen extends GetView<OnboardingController> {
                             ? controller.pageController.value.nextPage(
                                 duration: const Duration(milliseconds: 300),
                                 curve: Curves.linear)
-                            : Get.offNamed(Routes.home);
+                            : Get.toNamed(Routes.login);
                       },
                       child: Text(
                         controller.currentIndex == 0 ? 'Get Started' : 'Next',
