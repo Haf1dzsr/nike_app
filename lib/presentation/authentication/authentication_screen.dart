@@ -2,23 +2,20 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import 'controllers/home.controller.dart';
+import 'controllers/authentication_controller.dart';
 
-class HomeScreen extends GetView<HomeController> {
-   HomeScreen({Key? key}) : super(key: key);
-
-  @override
-  final HomeController controller = Get.put(HomeController());
+class AuthenticationScreen extends GetView<AuthenticationController> {
+  const AuthenticationScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('HomeScreen'),
+        title: const Text('AuthenticationScreen'),
         centerTitle: true,
       ),
       body: const Center(
         child: Text(
-          'HomeScreen is working',
+          'AuthenticationScreen is working',
           style: TextStyle(fontSize: 20),
         ),
       ),

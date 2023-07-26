@@ -1,2 +1,15 @@
-export 'package:nike_app/presentation/home/home.screen.dart';
-export 'package:nike_app/presentation/splash/splash.screen.dart';
+export 'package:nike_app/presentation/authentication/authentication_screen.dart';
+export 'package:nike_app/presentation/authentication/forgot_password_screen.dart';
+export 'package:nike_app/presentation/authentication/login_screen.dart';
+export 'package:nike_app/presentation/authentication/otp_verification_screen.dart';
+export 'package:nike_app/presentation/authentication/register_screen.dart';
+export 'package:nike_app/presentation/cart/cart_screen.dart';
+export 'package:nike_app/presentation/cart/checkout_screen.dart';
+export 'package:nike_app/presentation/home/dashboard_screen.dart';
+export 'package:nike_app/presentation/home/detail_screen.dart';
+export 'package:nike_app/presentation/home/drawer_screen.dart';
+export 'package:nike_app/presentation/home/navbar_screen.dart';
+export 'package:nike_app/presentation/onboarding/onboarding_screen.dart';
+export 'package:nike_app/presentation/profile/edit_profile_screen.dart';
+export 'package:nike_app/presentation/profile/profile_screen.dart';
+export 'package:nike_app/presentation/splash/splash_screen.dart';
