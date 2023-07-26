@@ -121,7 +121,7 @@ class LoginScreen extends GetView<AuthLoginController> {
                     ),
                     const ReusablePrimaryButton(
                       buttonTitle: 'Sign In',
-                      destinationWidget: Routes.home,
+                      destinationWidget: Routes.dashboard,
                     ),
                     const SizedBox(
                       height: 24,
@@ -140,7 +140,7 @@ class LoginScreen extends GetView<AuthLoginController> {
                             AppColorStyle.greyButtonColor,
                           ),
                         ),
-                        onPressed: () => Get.toNamed(Routes.profile),
+                        onPressed: () => Get.toNamed(''),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,

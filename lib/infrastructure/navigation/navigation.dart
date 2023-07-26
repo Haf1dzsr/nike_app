@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
+import 'package:nike_app/infrastructure/navigation/bindings/controllers/home_controller_binding.dart';
+import 'package:nike_app/presentation/home/home_screen.dart';
+
 import '../../config.dart';
 import '../../presentation/screens.dart';
 import 'bindings/controllers/controllers_bindings.dart';
@@ -84,6 +87,42 @@ class Nav {
       name: Routes.editProfile,
       page: () => EditProfileScreen(),
       binding: EditProfileControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.navbar,
+      page: () => const NavbarScreen(),
+      binding: NavbarControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.dashboard,
+      page: () => const DashboardScreen(),
+      binding: DashboardControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.drawer,
+      page: () => const DrawerScreen(),
+      binding: DrawerControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.detail,
+      page: () => DetailScreen(),
+      binding: DetailControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.cart,
+      page: () => CartScreen(),
+      binding: CartControllerBinding(),
+      transition: Transition.cupertino,
+    ),
+    GetPage(
+      name: Routes.checkout,
+      page: () => const CheckoutScreen(),
+      binding: CheckoutControllerBinding(),
       transition: Transition.cupertino,
     ),
   ];

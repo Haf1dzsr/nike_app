@@ -13,4 +13,5 @@ class AppColorStyle {
   static const Color whiteTitleColor = Color(0xffececec);
   static const Color whiteSubtitleColor = Color(0xffd8d8d8);
   static const Color selectedBoardColor = Color(0xffffb21a);
+  static const Color favoritedColor = Color(0xffF87265);
 }
